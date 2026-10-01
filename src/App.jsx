@@ -198,10 +198,10 @@ function Contact() {
           </a>
         </div>
 
-        <aside className="gift reveal" aria-label="A note">
-          <span className="gift-tag mono">A note</span>
+        <aside className="gift reveal" aria-label={giftNote.tag}>
+          <span className="gift-tag mono">{giftNote.tag}</span>
           <p className="serif">{giftNote.message}</p>
-          <p className="mono gift-from">— {giftNote.from}</p>
+          <p className="mono gift-from">— With love, {giftNote.from}</p>
         </aside>
 
         <div className="colophon mono">

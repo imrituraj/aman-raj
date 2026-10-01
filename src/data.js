@@ -68,6 +68,8 @@ export const fields = ['Software', 'Entrepreneurship', 'Mentorship', 'Computer S
 
 // The little note in the footer. Change it to whatever you'd like to say.
 export const giftNote = {
-  message: 'This website is a gift — from family, with love. Keep being delusional until it works. We’re proud of you.',
-  from: 'Your family',
+  tag: 'From Bhaiya',
+  message:
+    'Aman, I’ve watched you go from Deoghar to Stanford’s Code in Place, BITS Pilani, Network School and now your own startup — all faster than I ever imagined. Keep dreaming big, stay delusional until it works, and never forget your Bhaiya is always in your corner. This little corner of the internet is yours. So proud of you.',
+  from: 'Bhaiya',
 }
